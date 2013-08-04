@@ -19,7 +19,23 @@ ho
 a";
 
 echo "\nhello ".$var3;
-echo '\nhello $var3'
+echo '\nhello $var3';
 
 
+$str = <<<EOF
+Hello man)
+I am here
+EOF;
+
+echo $str;
+
+
+$str="fuck you mother";
+
+echo "\n".$str[-1];
+echo "\n".$str{20};
+
+$nullValue=null;
+
+$nullValue=Null;
 ?>
